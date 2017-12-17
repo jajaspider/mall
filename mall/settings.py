@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'mall', # DB명
         'USER': 'mall', # 데이터베이스 계정
         'PASSWORD': 'mall', # 계정 비밀번호
-        'HOST': '113.198.236.95', # 데이테베이스 주소(IP)
+        'HOST': 'localhost', # 데이테베이스 주소(IP)
         'PORT': '3306', # 데이터베이스 포트(보통은 3306)
     }
 }
