@@ -197,7 +197,16 @@ footer {width:100%;padding:40px 0 33px;background:url(../images/footer-tail.gif)
 .list-services {padding:0}
 	.list-services li {float:left;	padding:0 0 0 20px}
 	.list-services li:first-child {padding:0}
-		.list-services li a {	display:block;width:60px;height:45px;background:url(../images/social-icons.png) left top no-repeat;	}
+		.list-services li a {	display:block;width:60px;height:45px;background:url(../i`mages/social-icons.png) left top no-repeat;	}
 		.list-services li a.item-2 {background-position:-80px 0}
 		.list-services li a.item-3 {background-position:-160px 0}
 		.list-services li a.item-4 {background-position:-240px 0}
+
+
+.submenu {padding:0;width:100%}
+.submenu li {float:left;position:relative}
+.submenu li:first-child {background:url(../images/menu-a-tail.gif) 0 -71px no-repeat}
+.submenu li a {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;display:block;width:20%;font-size:21px;line-height:1.238em;padding:21px 0 24px 0;color:#262626;text-align:center;text-transform:uppercase;background:url(../images/menu-a-tail.gif) right -71px no-repeat;letter-spacing:-1px}
+.submenu li a:hover,
+.submenu li a.active {color:#fff;background-position:left top;background-repeat:repeat-x;background-color:#000}
+.submenu li` a, .list-1 li a, .list-2 li a, .link, .button, .logo {text-decoration:none}
