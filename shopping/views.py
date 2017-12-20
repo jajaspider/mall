@@ -10,6 +10,9 @@ def category(request):
 def photo(request):
     return render(request,'shopping/photo.html')
 
+def contacts(request):
+    return render(request,'shopping/contacts.html')
+
 def item_detail(request,pk):
     boardList = get_object_or_404(Notice, pk=pk)
     return render(request, 'shopping/item_detail.html', {'boardList': boardList})
