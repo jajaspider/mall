@@ -13,6 +13,6 @@ def photo(request):
 def contacts(request):
     return render(request,'shopping/contacts.html')
 
-def item_detail(request,pk):
-    boardList = get_object_or_404(Notice, pk=pk)
-    return render(request, 'shopping/item_detail.html', {'boardList': boardList})
+
+def category_cpu(request):
+    return render(request,'shopping/cpu_detail.html')
