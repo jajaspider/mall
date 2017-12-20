@@ -294,7 +294,7 @@ p {
   cursor: pointer
 }
 
-.menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo {
+.menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo,.category-menu li a {	
   text-decoration: none
 }
 
