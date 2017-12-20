@@ -1,12 +1,12 @@
 .category-menu {
 	padding: 0;
 	width: 100%;
-  text-decoration: none;
 }
 
 .category-menu li {
 	float: left;
-	position: relative
+	position: relative;
+  text-decoration: none;
 }
 
 .category-menu li:first-child {
