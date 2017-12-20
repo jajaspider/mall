@@ -1143,37 +1143,38 @@ footer {
   background-position: -240px 0
 }
 
+
 .category-menu {
-  padding: 0;
-  width: 100%
+	padding: 0;
+	width: 100%
 }
 
 .category-menu li {
-  float: left;
-  position: relative
+	float: left;
+	position: relative
 }
 
 .category-menu li:first-child {
-  background: url(../images/menu-a-tail.gif) 0 -71px no-repeat
+	background: url(../images/menu-a-tail.gif) 0 -71px no-repeat
 }
 
 .category-menu li a {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  display: block;
-  width: 20%;
-  font-size: 21px;
-  line-height: 1.238em;
-  padding: 21px 0 24px 0;
-  color: #262626;
-  text-align: center;
-  text-transform: uppercase;
-  background: url(../images/menu-a-tail.gif) right -71px no-repeat;
-  letter-spacing: -1px
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: block;
+	width: 20%;
+	font-size: 21px;
+	line-height: 1.238em;
+	padding: 21px 0 24px 0;
+	color: #262626;
+	text-align: center;
+	text-transform: uppercase;
+	background: url(../images/menu-a-tail.gif) right -71px no-repeat;
+	letter-spacing: -1px
 }
 
 .category-menu li a:hover, .category-menu li a.active {
-  color: #fff;
-  background-position: left top;
-  background-repeat: repeat-x;
-  background-color: #000
+	color: #fff;
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-color: #000
 }
