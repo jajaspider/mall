@@ -15,4 +15,4 @@ def contacts(request):
 
 
 def category_cpu(request):
-    return render(request,'shopping/cpu_detail.html')
+    return render(request,'shopping/cpu.html')
