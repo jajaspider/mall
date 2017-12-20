@@ -458,7 +458,7 @@ div.content {
   /* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
   display: none;
   width: 620px;
-  height: 403px;
+  height: 620px;
   margin: 0;
   padding: 0px;
   float: left;
