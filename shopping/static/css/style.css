@@ -82,7 +82,7 @@ h1 {padding:15px 0 0 0;position:relative;font-weight:normal;text-transform:upper
 .menu li a:hover,
 .menu li a.active {color:#fff;background-position:left top;background-repeat:repeat-x;background-color:#000}
 
-.submenu li` a, .list-1 li a, .list-2 li a, .link, .button, .logo {text-decoration:none}
+.submenu li a, .list-1 li a, .list-2 li a, .link, .button, .logo {text-decoration:none}
 .submenu {padding:0;width:100%}
 .submenu li {float:left;position:relative}
 .submenu li:first-child {background:url(../images/menu-a-tail.gif) 0 -71px no-repeat}
