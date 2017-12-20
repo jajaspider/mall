@@ -574,7 +574,7 @@ div.slideshow {}
 div.slideshow span.image-wrapper {
   display: block;
   width: 620px;
-  height: 403px;
+  height: 620px;
   position: absolute;
   left: 0;
   top: 0
@@ -583,7 +583,7 @@ div.slideshow span.image-wrapper {
 div.slideshow a.advance-link {
   display: block;
   width: 620px;
-  height: 403px;
+  height: 620px;
   /* This should be set to be at least the height of the largest image in the slideshow */
   padding: 0;
   margin: 0
