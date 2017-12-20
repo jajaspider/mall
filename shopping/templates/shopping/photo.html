@@ -1,94 +1,92 @@
-{% extends 'shopping/base.html' %}
-{% load staticfiles %}
-{% block content %}
+{% extends 'shopping/base.html' %} {% load staticfiles %} {% block content %}
 
 <section id="content">
-    <div class="bg-top">
-      <div class="bg-top-2">
-            <div class="bg">
-                <div class="bg-top-shadow">
-                    <div class="main">
-                        <div class="gallery p3">
-                          <div class="wrapper indent-bot">
-                                <div id="gallery" class="content">
-                                   <div class="wrapper">
-                                       <div class="slideshow-container">
-                                            <div id="slideshow" class="slideshow"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="thumbs" class="navigation">
-                                    <ul class="thumbs noscript">
-                                        <li>
-                                            <a class="thumb" href='{% static "images/gallery-img1.png" %}' title=""> <img src='{% static "images/custom_liquid_1.png" %}' alt="" /><span></span> </a>
-                                        </li>
-                                        <li>
-                                            <a class="thumb" href='{% static "images/gallery-img2.png" %}' title=""> <img src='{% static "images/custom_liquid_2.png" %}' alt="" /> <span></span></a>
-                                        </li>
-                                        <li>
-                                            <a class="thumb" href='{% static "images/gallery-img3.png" %}' title=""> <img src='{% static "images/custom_liquid_3.png" %}' alt="" /> <span></span></a>
-                                        </li>
-                                        <li>
-                                            <a class="thumb" href='{% static "images/gallery-img4.png" %}' title=""> <img src='{% static "images/custom_liquid_4.png" %}' alt="" /> <span></span></a>
-                                        </li>
-                                        <li>
-                                            <a class="thumb" href='{% static "images/gallery-img5.png" %}' title=""> <img src='{% static "images/custom_liquid_5.png" %}' alt="" /> <span></span></a>
-                                        </li>
-                                        <li>
-                                            <a class="thumb" href='{% static "images/gallery-img6.png" %}' title=""> <img src='{% static "images/custom_liquid_6.png" %}' alt="" /> <span></span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="inner-2">
-                                <div class="wrapper">
-                                    <span class="title t2 img-indent3">Custom Liquid System</span>
-                                    <div class="extra-wrap indent-top2">
-                                      인텔 최신의 I7 커피레이크 메인프로세서와 엔비디아 Geforce 1080ti의 하이엔드 컴포넌트 구성으로 고사양 게이밍에 최적화된 커스텀 워터쿨링 시스템입니다.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel">
-                            <h3 class="color-1 p2">수냉 시스템</h3>
-                            <a class="prev" href="#">Prev</a>
-                            <a class="next" href="#">Next</a>
-                            <div class="jCarouselLite">
-                                <ul id="carousel">
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_lc"><img src='{% static "images/gallery_auto_1.png" %}' alt="" /><span>LC</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_l5"><img src='{% static "images/gallery_auto_2.png" %}' alt="" /><span>L5</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_luna"><img src='{% static "images/gallery_auto_3.png" %}' alt="" /><span>LUNA</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_asura"><img src='{% static "images/gallery_auto_4.png" %}' alt="" /><span>ASU</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_ra_cl"><img src='{% static "images/gallery_auto_5.png" %}' alt="" /><span>RA</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_lt"><img src='{% static "images/gallery_auto_6.png" %}' alt="" /><span>LT</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=%20sys_luna4le"><img src='{% static "images/gallery_auto_7.png" %}' alt="" /><span>4LE</span></a></li>
-                                    <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_e0"><img src='{% static "images/gallery_auto_8.png" %}' alt="" /><span>e0</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
+  <div class="bg-top">
+    <div class="bg-top-2">
+      <div class="bg">
+        <div class="bg-top-shadow">
+          <div class="main">
+            <div class="gallery p3">
+              <div class="wrapper indent-bot">
+                <div id="gallery" class="content">
+                  <div class="wrapper">
+                    <div class="slideshow-container">
+                      <div id="slideshow" class="slideshow"></div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-bot">
-      <div class="main">
-          <div class="container_12">
-              <div class="wrapper">
-                  <article class="grid_3">
-                      <h3 class="prev-indent-bot">Our Address</h3>
-                        <dl>
-                            <dt class="indent-bot">부산시 부산진구 엄광로 176 동의대학교 정보공학관</dt>
-                            <dd><span>Freephone:</span>  +82 51 891 1724</dd>
-                            <dd><span>Telephone:</span>  +82 10 5094 6665</dd>
-                            <dd><span>FAX:</span>  +1 504 889 9898</dd>
-                            <dd><strong>E-mail:</strong> <a href="#">sonaapi17@gmail.com</a></dd>
-                        </dl>
-                    </article>
+                <div id="thumbs" class="navigation">
+                  <ul class="thumbs noscript">
+                    <li>
+                      <a class="thumb" href='{% static "images/gallery-img1.png" %}' title=""> <img src='{% static "images/custom_liquid_1.png" %}' alt="" /><span></span> </a>
+                    </li>
+                    <li>
+                      <a class="thumb" href='{% static "images/gallery-img2.png" %}' title=""> <img src='{% static "images/custom_liquid_2.png" %}' alt="" /> <span></span></a>
+                    </li>
+                    <li>
+                      <a class="thumb" href='{% static "images/gallery-img3.png" %}' title=""> <img src='{% static "images/custom_liquid_3.png" %}' alt="" /> <span></span></a>
+                    </li>
+                    <li>
+                      <a class="thumb" href='{% static "images/gallery-img4.png" %}' title=""> <img src='{% static "images/custom_liquid_4.png" %}' alt="" /> <span></span></a>
+                    </li>
+                    <li>
+                      <a class="thumb" href='{% static "images/gallery-img5.png" %}' title=""> <img src='{% static "images/custom_liquid_5.png" %}' alt="" /> <span></span></a>
+                    </li>
+                    <li>
+                      <a class="thumb" href='{% static "images/gallery-img6.png" %}' title=""> <img src='{% static "images/custom_liquid_6.png" %}' alt="" /> <span></span></a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
+              <div class="inner-2">
+                <div class="wrapper">
+                  <span class="title t2 img-indent3">Custom Liquid System</span>
+                  <div class="extra-wrap indent-top2">
+                    인텔 최신의 I7 커피레이크 메인프로세서와 엔비디아 Geforce 1080ti의 하이엔드 컴포넌트 구성으로 고사양 게이밍에 최적화된 커스텀 워터쿨링 시스템입니다.
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="carousel">
+              <h3 class="color-1 p2">수냉 시스템</h3>
+              <a class="prev" href="#">Prev</a>
+              <a class="next" href="#">Next</a>
+              <div class="jCarouselLite">
+                <ul id="carousel">
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_lc"><img src='{% static "images/gallery_auto_1.png" %}' alt="" /><span>LC</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_l5"><img src='{% static "images/gallery_auto_2.png" %}' alt="" /><span>L5</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_luna"><img src='{% static "images/gallery_auto_3.png" %}' alt="" /><span>LUNA</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_asura"><img src='{% static "images/gallery_auto_4.png" %}' alt="" /><span>ASU</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_ra_cl"><img src='{% static "images/gallery_auto_5.png" %}' alt="" /><span>RA</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_lt"><img src='{% static "images/gallery_auto_6.png" %}' alt="" /><span>LT</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=%20sys_luna4le"><img src='{% static "images/gallery_auto_7.png" %}' alt="" /><span>4LE</span></a></li>
+                  <li><a target="_blank" href="http://sysgear.co.kr/shop/content_product.php?cn_id=sys_e0"><img src='{% static "images/gallery_auto_8.png" %}' alt="" /><span>e0</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+  <div class="bg-bot">
+    <div class="main">
+      <div class="container_12">
+        <div class="wrapper">
+          <article class="grid_3">
+            <h3 class="prev-indent-bot">Our Address</h3>
+            <dl>
+              <dt class="indent-bot">부산시 부산진구 엄광로 176 동의대학교 정보공학관</dt>
+              <dd><span>Freephone:</span> +82 51 891 1724</dd>
+              <dd><span>Telephone:</span> +82 10 5094 6665</dd>
+              <dd><span>FAX:</span> +1 504 889 9898</dd>
+              <dd><strong>E-mail:</strong> <a href="#">sonaapi17@gmail.com</a></dd>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 {% endblock %}

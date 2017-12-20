@@ -1,67 +1,62 @@
-{% extends 'shopping/base.html' %}
-{% load staticfiles %}
-{% block content %}
+{% extends 'shopping/base.html' %} {% load staticfiles %} {% block content %}
 <section id="content">
-    <div class="bg-top">
-      <div class="bg-top-2">
-            <div class="bg">
-                <div class="bg-top-shadow">
-                    <div class="main">
-                        <div class="box">
-                            <div class="padding">
-                                <div class="container_12">
-                                    <div class="wrapper">
-                                        <div class="grid_12">
-                                          <div class="indent-left">
-                                              <h3 class="p2">Contact Us</h3>
-                                                <form id="contact-form" method="post" enctype="multipart/form-data">
-                                                    <fieldset>
-                                                          <label><span class="text-form">Name:</span><input name="p1" type="text" /></label>
-                                                          <label><span class="text-form">Email:</span><input name="p2" type="text" /></label>
-                                                          <label><span class="text-form">Phone:</span><input name="p3" type="text" /></label>
-                                                          <div class="wrapper"><div class="text-form">Message:</div><textarea></textarea></div>
-                                                          <div class="buttons">
-                                                              <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
-                                                              <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
-                                                          </div>
-                                                    </fieldset>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+  <div class="bg-top">
+    <div class="bg-top-2">
+      <div class="bg">
+        <div class="bg-top-shadow">
+          <div class="main">
+            <div class="box">
+              <div class="padding">
+                <div class="container_12">
+                  <div class="wrapper">
+                    <div class="grid_12">
+                      <div class="indent-left">
+                        <h3 class="p2">Contact Us</h3>
+                        <form id="contact-form" method="post" enctype="multipart/form-data">
+                          <fieldset>
+                            <label><span class="text-form">Name:</span><input name="p1" type="text" /></label>
+                            <label><span class="text-form">Email:</span><input name="p2" type="text" /></label>
+                            <label><span class="text-form">Phone:</span><input name="p3" type="text" /></label>
+                            <div class="wrapper">
+                              <div class="text-form">Message:</div><textarea></textarea></div>
+                            <div class="buttons">
+                              <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                              <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
                             </div>
-                        </div>
+                          </fieldset>
+                        </form>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="bg-bot">
-      <div class="main">
-          <div class="container_12">
-              <div class="wrapper">
-                  <article class="grid_3">
-                      <h3 class="prev-indent-bot">Our Address</h3>
-                        <dl>
-                            <dt class="indent-bot">부산시 부산진구 엄광로 176 동의대학교 정보공학관</dt>
-                            <dd><span>Freephone:</span>  +82 51 891 1724</dd>
-                            <dd><span>Telephone:</span>  +82 10 5094 6665</dd>
-                            <dd><span>FAX:</span>  +1 504 889 9898</dd>
-                            <dd><strong>E-mail:</strong> <a href="#">sonaapi17@gmail.com</a></dd>
-                        </dl>
-                    </article>
-                    <article class="grid_9">
-                      <h3 class="prev-indent-bot">반품 및 환불 규정</h3>
-CPU : INTEL, AMD 정식 수입 제품 : 무상 3년 AS 가능<br>
-INTEL, AMD 벌크 제품 : 무상 1년 AS 가능<br>
-구매후 한달이 지난 제품의 경우 해당 제조사 서비스센터로 입고되며 평균 소요기간은 15일입니다<br>
-(단, 소비자 과실로 인한 외관 훼손의 경우 A/S가 지원되지 않습니다)<br>
-                    </article>
-                </div>
-            </div>
+  </div>
+  <div class="bg-bot">
+    <div class="main">
+      <div class="container_12">
+        <div class="wrapper">
+          <article class="grid_3">
+            <h3 class="prev-indent-bot">Our Address</h3>
+            <dl>
+              <dt class="indent-bot">부산시 부산진구 엄광로 176 동의대학교 정보공학관</dt>
+              <dd><span>Freephone:</span> +82 51 891 1724</dd>
+              <dd><span>Telephone:</span> +82 10 5094 6665</dd>
+              <dd><span>FAX:</span> +1 504 889 9898</dd>
+              <dd><strong>E-mail:</strong> <a href="#">sonaapi17@gmail.com</a></dd>
+            </dl>
+          </article>
+          <article class="grid_9">
+            <h3 class="prev-indent-bot">반품 및 환불 규정</h3> CPU : INTEL, AMD 정식 수입 제품 : 무상 3년 AS 가능<br> INTEL, AMD 벌크 제품 : 무상 1년 AS 가능<br> 구매후 한달이 지난 제품의 경우 해당 제조사 서비스센터로 입고되며 평균 소요기간은 15일입니다<br> (단, 소비자 과실로 인한 외관 훼손의 경우 A/S가 지원되지 않습니다)<br>
+          </article>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
