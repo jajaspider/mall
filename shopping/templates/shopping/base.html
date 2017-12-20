@@ -10,6 +10,21 @@
     <script src='{% static "js/jquery-1.6.2.min.js" %}' type="text/javascript"></script>
     <script src='{% static "js/jquery.galleriffic.js" %}' type="text/javascript"></script>
     <script src='{% static "js/jquery.opacityrollover.js" %}' type="text/javascript"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$(".jCarouselLite").jCarouselLite({
+				  btnNext: ".next",
+				  btnPrev: ".prev",
+				  speed: 400,
+				  vertical: false,
+				  circular: true,
+				  easing:'easeOutQuart',
+				  visible: 4,
+				  start: 0,
+				  scroll: 1
+			 });
+		});
+	</script> 
 </head>
 <body id="page1">
     <header>
