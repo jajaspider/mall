@@ -294,7 +294,7 @@ p {
   cursor: pointer
 }
 
-.menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo,.category-menu li a {	
+.menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo{
   text-decoration: none
 }
 
@@ -552,7 +552,7 @@ div.nav-controls a.next:hover {
 
 div.slideshow-container {
   position: relative;
-  height: 403px;
+  height: 620px;
   /* This should be set to be at least the height of the largest image in the slideshow */
   z-index: 1
 }
