@@ -82,8 +82,7 @@ h1 {padding:15px 0 0 0;position:relative;font-weight:normal;text-transform:upper
 .menu li a:hover,
 .menu li a.active {color:#fff;background-position:left top;background-repeat:repeat-x;background-color:#000}
 
-.sub_menu {padding: 0;width:100%;list-style: none}
-.sub_menu li{float: left}
+
 /***** search form *****/
 #search-form {padding:35px 0px 0 37px}
 #search-form fieldset {position:relative; width:100%; display:block; overflow:hidden}
