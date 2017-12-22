@@ -69,6 +69,11 @@ body {
   background: url(../images/bg-top.jpg) center top no-repeat
 }
 
+.bg-bottom {
+  width: 100%;
+  background: url(../images/bg-bottom.jpg) center top no-repeat
+}
+
 .bg-bot {
   width: 100%;
   background: url(../images/bg-bot-tail.gif) center top repeat-x #fff;
